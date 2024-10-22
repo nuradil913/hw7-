@@ -1,0 +1,42 @@
+.cart{
+    padding-top: 50px;
+    &-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        &-left {
+            display: flex;
+            align-items: center;
+            width: 70%;
+            column-gap: 10px;
+            img {
+                width: 10%;
+            }
+
+        }
+        &-right {
+            display: flex;
+            column-gap: 20px;
+        }
+
+    }
+
+
+    &-count {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        &-btn{
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            &:active{
+                transform: scale(1.2);
+            }
+        }
+    }
+
+
+}
